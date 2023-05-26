@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatbox</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+    <section class="chat_section">
+
+        <div class="code">
+            <img src="" alt="">
+            <h1>Heya</h1>
+        </div>
+        <div class="messages">
+            <div class="incoming message">
+                <h4>patricia</h4>
+                <p>Hi,how was your day?</p>
+            </div>
+            <div class="outgoing message">
+                <h4>Alice</h4>
+                <p>Not so bad.And yours? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ea reprehenderit</p>
+            </div>
+            <div class="incoming message">
+                <h4>patricia</h4>
+                <p>Did you go shopping today? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ea reprehenderit</p>
+            </div>
+            <div class="outgoing message">
+                <h4>Alice</h4>
+                <p>Nope!!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ea reprehenderit</p>
+            </div>
+            <div class="outgoing message">
+                <h4>Alice</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ea reprehenderit.</p>
+            </div>
+        </div>
+        <div>
+            <form id="form" cols="30" rows="10" placeholder="write message here">
+                 <input id="input" autocomplete="off" /><button>Send</button>
+            </form>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    
+      <script src="/public/client.js"></script>
+    
+     
+    
+</body>
+</html>
